@@ -9,3 +9,5 @@ TODO: MIT license
 ]]></content>
   <tabTrigger>readme</tabTrigger>
 </snippet>
+
+GitHub page link: https://sak03.github.io/Calculator/
