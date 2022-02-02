@@ -36,3 +36,37 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.322);
   box-shadow: 0.2vw 0.3vw 0 grey;
 }
+
+@media only screen and (max-width: 825px) {
+  .container {
+    margin-top: 10px;
+  }
+  .container > h1 {
+    font-size: 10vw;
+  }
+  input {
+    font-size: 6.3vw;
+    height: 7vw;
+    border-radius: 2vw;
+    margin: 1vw 0;
+  }
+  button {
+    font-size: 6vw;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: snow;
+    width: 18vw;
+    height: 10vw;
+    border-radius: 2vw;
+    margin: 2px;
+  }
+  button:hover {
+    background-color: rgb(17, 70, 122);
+  }
+  .calcy {
+    display: inline-block;
+    background-color: rgb(128, 128, 128);
+    border-radius: 2vw;
+    border: 2px solid rgba(0, 0, 0, 0.116);
+    box-shadow: 1vw 1vw 0 rgba(128, 128, 128, 0.781);
+  }
+}
